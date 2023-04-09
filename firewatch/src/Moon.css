@@ -1,0 +1,6 @@
+.text {
+    font-weight: 600;
+    font-size: 8em;
+    will-change: opacity;
+    color: #ffaf1b;
+  }

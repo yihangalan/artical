@@ -1,0 +1,56 @@
+.button {
+    position: fixed;
+    top: 20px;
+    right: 180px;
+    z-index: 9999;
+    border-radius: 20px;
+    background-color: #a1441d;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+  }
+  
+  .button:active {
+    transform: scale(0.60);
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  .button:hover{
+    background-color: #2D2926FF;
+  }
+  
+  .button.ghost {
+    background-color: transparent;
+    border-color: #FFFFFF;
+  }
+  .font{
+    position: fixed;
+    top: 20px;
+    right: 180px;
+    z-index: 9999;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+  }
+  .font:active {
+    transform: scale(0.60);
+  }
+  
+  .font:focus {
+    outline: none;
+  }
+  .font:hover{
+    background-color: #2D2926FF;
+  }
